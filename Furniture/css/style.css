@@ -1,0 +1,364 @@
+body {
+  font-family: 'Museo Sans Cyrl';
+  background-color: #FFFBF6; }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+header {
+  /*background-image: url('../img/Header-image.jpg');*/
+  background-size: cover; }
+  header .top-head-info .logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 23px; }
+  header .top-head-info .phone-number {
+    font-weight: 500;
+    line-height: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+    text-align: right; }
+  header .h-main-content h1 {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 56px;
+    color: #FFFFFF;
+    margin-top: 150px;
+    margin-bottom: 20px; }
+    header .h-main-content h1 + p {
+      font-family: 'Proxima Nova Lt';
+      line-height: 24px;
+      font-size: 18px;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 15px;
+      max-width: 770px; }
+  header .h-main-content button {
+    transition: 1s;
+    width: 270px;
+    height: 55px;
+    background: #EEB659;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 250px;
+    cursor: pointer;
+    outline: none; }
+    header .h-main-content button:hover {
+      box-shadow: 0px 10px 30px rgba(199, 166, 112, 0.5); }
+
+.request-block {
+  margin-bottom: 130px;
+  box-shadow: 0px 26px 79px -22px rgba(0, 0, 0, 0.1);
+  margin-top: -80px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 7px; }
+  .request-block .r-title {
+    margin-top: 65px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    color: #262626; }
+    .request-block .r-title + p {
+      font-family: 'Proxima Nova Lt';
+      font-size: 16px;
+      letter-spacing: 0.055em;
+      color: #262626;
+      margin-bottom: 20px; }
+  .request-block .inputs .col-lg-4 {
+    position: relative; }
+    .request-block .inputs .col-lg-4:after {
+      font-family: "Font Awesome 5 Free";
+      position: absolute;
+      display: block;
+      left: 15px;
+      top: 0;
+      content: '';
+      width: 55px;
+      height: 55px;
+      border-right: 1px solid #E8E8E8; }
+  .request-block .inputs .user-name:after {
+    font-weight: 900;
+    content: '\f007';
+    color: #9D9D9D;
+    font-size: 28px;
+    text-align: center;
+    line-height: 55px; }
+  .request-block .inputs .user-phone:after {
+    font-weight: 900;
+    content: '\f095';
+    color: #9D9D9D;
+    font-size: 28px;
+    text-align: center;
+    line-height: 55px; }
+  .request-block .inputs .user-submit:after {
+    display: none; }
+  .request-block .inputs input {
+    position: relative;
+    outline: none;
+    width: 100%;
+    margin-bottom: 60px;
+    height: 55px;
+    border-radius: 7px;
+    border: 1px solid #E8E8E8;
+    background-color: #FFFFFF;
+    padding-left: 75px; }
+    .request-block .inputs input:focus {
+      box-shadow: 0px 31px 63px -31px rgba(0, 0, 0, 0.75); }
+  .request-block .inputs input[type="submit"] {
+    padding-left: 0;
+    text-align: center;
+    cursor: pointer;
+    background: #EEB659;
+    border-radius: 7px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.25); }
+
+.offer .offer-title {
+  font-weight: 700;
+  font-size: 38px;
+  color: #262626;
+  margin-bottom: 35px; }
+.offer .offer-item {
+  transition: 0.35s;
+  cursor: pointer;
+  min-height: 450px;
+  background-color: #fff;
+  margin-bottom: 120px;
+  border: 1px solid #E8E8E8;
+  border-radius: 7px; }
+  .offer .offer-item:hover {
+    box-shadow: 0px 26px 50px -11px rgba(0, 0, 0, 0.3); }
+  .offer .offer-item .for-img {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    overflow: hidden; }
+  .offer .offer-item .img-fluid {
+    width: 100%; }
+  .offer .offer-item .item-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #262626;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 40px; }
+  .offer .offer-item .item-descr {
+    font-family: 'Proxima Nova Rg';
+    font-size: 16px;
+    line-height: 25px;
+    color: #262626;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px; }
+
+.process-images {
+  box-shadow: 0px 32px 55px -24px rgba(0, 0, 0, 0.3);
+  margin-bottom: 140px;
+  background-color: #fff;
+  border: 1px solid #E8E8E8;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 7px; }
+  .process-images .for-text {
+    margin-top: 75px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto; }
+    .process-images .for-text p {
+      display: inline-block;
+      margin: 0px auto;
+      font-size: 38px;
+      font-weight: 600;
+      color: #262626;
+      margin-bottom: 20px; }
+    .process-images .for-text button {
+      transition: 1s;
+      width: 270px;
+      height: 55px;
+      background: #EEB659;
+      box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 7px;
+      font-weight: 600;
+      line-height: normal;
+      font-size: 18px;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      margin-bottom: 60px; }
+      .process-images .for-text button:hover {
+        box-shadow: 0px 10px 30px rgba(199, 166, 112, 0.5); }
+  .process-images img {
+    width: 100%; }
+
+.ready-made .ready-made-title {
+  font-weight: 700;
+  font-size: 38px;
+  color: #262626;
+  margin-bottom: 35px; }
+.ready-made .ready-made-item {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 120px;
+  background-color: #fff;
+  border: 1px solid #E8E8E8;
+  border-radius: 7px;
+  text-align: center; }
+  .ready-made .ready-made-item:hover {
+    box-shadow: 0px 32px 55px -24px rgba(0, 0, 0, 0.3); }
+  .ready-made .ready-made-item .for-img {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    overflow: hidden;
+    height: 260px;
+    line-height: 270px; }
+    .ready-made .ready-made-item .for-img img {
+      vertical-align: middle;
+      max-width: 100%;
+      margin: 0px auto; }
+  .ready-made .ready-made-item .item-title {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #262626;
+    margin-bottom: 6px; }
+  .ready-made .ready-made-item .item-category {
+    font-size: 16px;
+    color: #616161;
+    font-weight: 300;
+    margin-bottom: 10px; }
+  .ready-made .ready-made-item .item-price {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 25px; }
+    .ready-made .ready-made-item .item-price i {
+      color: #616161; }
+
+.contacts {
+  margin-bottom: 80px; }
+  .contacts .contact {
+    background-color: #fff;
+    border: 1px solid #E8E8E8;
+    border-radius: 7px; }
+    .contacts .contact .contact-text {
+      display: inline-block; }
+      .contacts .contact .contact-text .contact-title {
+        margin-top: 55px;
+        font-weight: 600;
+        font-size: 36px;
+        color: #262626;
+        margin-bottom: 30px;
+        padding-left: 60px; }
+      .contacts .contact .contact-text .contact-type {
+        font-size: 22px;
+        font-weight: 600;
+        color: #262626;
+        margin-bottom: 10px;
+        padding-left: 60px; }
+      .contacts .contact .contact-text .contact-descr {
+        font-family: 'Proxima Nova Rg';
+        font-size: 16px;
+        color: #262626;
+        margin-bottom: 20px;
+        padding-left: 60px; }
+        .contacts .contact .contact-text .contact-descr:last-child {
+          margin-bottom: 55px; }
+    .contacts .contact iframe {
+      display: inline-block;
+      float: right; }
+  .contacts .question {
+    background-color: #fff;
+    border: 1px solid #E8E8E8;
+    border-radius: 7px;
+    padding-left: 35px;
+    padding-right: 35px; }
+    .contacts .question .question-title {
+      font-size: 36px;
+      font-weight: 600;
+      color: #262626;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 15px; }
+    .contacts .question .question-descr {
+      font-size: 14px;
+      font-weight: 250;
+      color: #000;
+      margin-bottom: 25px; }
+    .contacts .question input {
+      width: 100%;
+      height: 55px;
+      border-radius: 7px;
+      border: none; }
+    .contacts .question .div-for-input {
+      border-radius: 7px;
+      border: 1px solid #E8E8E8;
+      position: relative; }
+      .contacts .question .div-for-input:after {
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        content: '';
+        width: 55px;
+        height: 55px;
+        border-right: 1px solid #E8E8E8; }
+    .contacts .question .div-for-input-name {
+      width: 100%;
+      margin-bottom: 15px; }
+      .contacts .question .div-for-input-name:after {
+        font-weight: 900;
+        content: '\f007';
+        color: #9D9D9D;
+        font-size: 28px;
+        text-align: center;
+        line-height: 55px; }
+      .contacts .question .div-for-input-name input {
+        padding-left: 70px;
+        font-size: 14px;
+        color: #262626;
+        outline: none; }
+    .contacts .question .div-for-input-phone {
+      width: 100%;
+      margin-bottom: 15px; }
+      .contacts .question .div-for-input-phone:after {
+        font-weight: 900;
+        content: '\f095';
+        color: #9D9D9D;
+        font-size: 28px;
+        text-align: center;
+        line-height: 55px; }
+      .contacts .question .div-for-input-phone input {
+        padding-left: 70px;
+        font-size: 14px;
+        color: #262626;
+        outline: none; }
+    .contacts .question input[type="submit"] {
+      padding-left: 0;
+      text-align: center;
+      cursor: pointer;
+      background: #EEB659;
+      border-radius: 7px;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      font-weight: 700;
+      margin-bottom: 30px; }
+
+/*# sourceMappingURL=style.css.map */

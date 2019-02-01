@@ -1,0 +1,97 @@
+@media screen and (max-width: 1199px) {
+  header .h-main-content h1 {
+    font-size: 46px; }
+
+  .request-block .inputs input {
+    margin-bottom: 20px; }
+
+  .offer .offer-item .item-title {
+    padding-left: 20px; }
+  .offer .offer-item .item-descr {
+    padding-left: 20px;
+    padding-right: 20px; } }
+@media screen and (max-width: 767px) {
+  .offer .offer-item .item-descr {
+    font-size: 14px; }
+
+  .offer .offer-item {
+    margin-bottom: 50px; } }
+@media screen and (max-width: 575px) {
+  .offer .offer-item .for-img img {
+    width: 100%; } }
+@media screen and (max-width: 478px) {
+  header .top-head-info .logo {
+    font-size: 24px; }
+
+  header .h-main-content h1 {
+    font-size: 36px; }
+
+  header .h-main-content h1 + p {
+    font-size: 16px; }
+
+  .offer .offer-item {
+    min-height: 380px; } }
+@media screen and (max-width: 422px) {
+  header .top-head-info .logo {
+    font-size: 20px; }
+
+  header .top-head-info .phone-number {
+    font-size: 14px;
+    margin-bottom: 25px; } }
+@media screen and (max-width: 368px) {
+  header .top-head-info .phone-number {
+    font-size: 12px; } }
+@media screen and (max-width: 340px) {
+  header .top-head-info .logo {
+    font-size: 18px; }
+
+  header .h-main-content h1 {
+    font-size: 26px; }
+
+  header .h-main-content h1 + p {
+    font-size: 14px; }
+
+  .request-block .r-title {
+    font-size: 26px; }
+
+  .request-block .r-title + p {
+    font-size: 14px; }
+
+  .offer .offer-title {
+    font-size: 26px; }
+
+  .offer .offer-item .item-title {
+    font-size: 16px; }
+
+  .offer .offer-item {
+    min-height: 380px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .request-block .inputs input {
+    margin-bottom: 65px; }
+
+  .contacts .question .question-title {
+    font-size: 29px; }
+  .contacts .question .div-for-input-name input {
+    font-size: 12px; }
+  .contacts .question .div-for-input-phone input {
+    font-size: 12px; } }
+@media screen and (max-width: 991px) {
+  .user-submit {
+    margin-bottom: 45px; }
+
+  .process-images img {
+    border-radius: 7px; }
+
+  .offer .offer-item {
+    margin-bottom: 40px; }
+
+  .contacts .contact {
+    margin-bottom: 50px; } }
+@media screen and (max-width: 767px) {
+  .contacts .contact .contact-text p {
+    padding-left: 0px !important;
+    text-align: center; }
+  .contacts .contact iframe {
+    min-height: 345px; } }
+
+/*# sourceMappingURL=media.css.map */
